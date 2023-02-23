@@ -9,14 +9,10 @@ int main()
    int t;
    cin>>t;
    while(t--){
-   float n;
+   int n;
    cin>>n;
-   float nm=n*50;
-   float co2=(float)(30/100);
-   cout<<co2;
-   float co=co2*nm;
-   cout<<co<<endl;
-   
+  
+   cout<<(n*50)-((n*50*70/100))<<endl;
    
    
  }
